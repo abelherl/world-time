@@ -4,7 +4,7 @@ import 'package:world_time/pages/splash.dart';
 import 'pages/home.dart';
 
 void main() => runApp(MaterialApp(
-  initialRoute: '/home',
+  initialRoute: '/',
   routes: {
     '/': (context) => Splash(),
     '/home': (context) => Home(),
